@@ -8,3 +8,7 @@ type: query
 main_module: expressologs_by_locus.py
 whitelist: 
     - bar.utoronto.ca
+requirements:
+    - re
+    - requests
+    
