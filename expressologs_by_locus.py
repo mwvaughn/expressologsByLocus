@@ -26,7 +26,7 @@ def search(arg):
             source = 'unknown'
         
         transformed_cc = {
-    	    'class': 'locus_relationships',
+    	    'class': 'locus_relationship',
     	    'reference': 'TAIR10',
             'locus': locus,
             'related_entity': record['gene_B'],
