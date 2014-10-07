@@ -9,6 +9,7 @@ def search(arg):
     locus = arg['locus']
     locus = locus.upper()
     
+    # Format the query into BAR's idiomatic scheme
     request_param = '[{%22gene%22:%22' + locus + '%22}]'
     svc_url = bar_common.base_url() + '/get_expressologs.php?request=' + request_param
     r = requests.get(svc_url)
